@@ -1,6 +1,7 @@
 @extends('layouts.admin')
 
 @section('content')
+    <a href="{{ url()->previous() }}"><i class="fa-solid fa-circle-arrow-left"></i></a>
     <h1>{{ $project->title }}</h1>
     <div class="d-flex justify-content-between">
 
