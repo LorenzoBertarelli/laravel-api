@@ -78,7 +78,7 @@
                             <li class="nav-item">
                                 <a class="nav-link text-white {{ Route::currentRouteName() == 'admin.technologies.index' ? 'bg-secondary' : '' }}"
                                     href="{{ route('admin.technologies.index') }}">
-                                    <i class="fa-solid fa-microchip"></i> Types
+                                    <i class="fa-solid fa-microchip"></i> Technologies
                                 </a>
                             </li>
                         </ul>

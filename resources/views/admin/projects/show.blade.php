@@ -16,9 +16,9 @@
     <div class="mt-3">
         <h5>Tecnologie: </h5>
         @forelse ($project->technologies as $technology)
-            <span>{{ $technology->name }} {{ $loop->last ? '' : ',' }}</span>
+            <li>{{ $technology->name }}</li>
         @empty
-            <span>Nessuna tecnologia presente</span>
+            <li>Nessuna tecnologia presente</li>
         @endforelse
     </div>
     <p class="mt-4">{{ $project->content }}</p>
